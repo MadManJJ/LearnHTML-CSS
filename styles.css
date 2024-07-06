@@ -159,6 +159,12 @@ header .image img {
     margin: auto;
 }
 
+header .gradient-text{
+    background: linear-gradient(90deg , #00dbde , #206aff);
+    -webkit-background-clip: text; /* make the background only apply to text */
+    -webkit-text-fill-color: transparent; /* make the actual color of the text tranparent(so we won't see it) in this case it the color white try removing this line */
+}
+
 section .header {
     margin-bottom: 1rem;
     color: #fff;
