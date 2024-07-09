@@ -20,7 +20,7 @@ a {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #000000;
+    background-color: #0a0909;
 }
 
 nav {
@@ -97,7 +97,7 @@ nav {
 
 .blur {
     position: absolute;
-    box-shadow: 150px 120px 1000px 60px #1d4ed8;
+    box-shadow: 150px 200px 1000px 60px #1d4ed8;
     z-index: -100;
 }
 
@@ -160,7 +160,7 @@ header .image img {
 }
 
 header .gradient-text{
-    background: linear-gradient(90deg , #00dbde , #206aff);
+    background: linear-gradient(90deg , #1e7dfe , #bb98fe);
     -webkit-background-clip: text; /* make the background only apply to text */
     -webkit-text-fill-color: transparent; /* make the actual color of the text tranparent(so we won't see it) in this case it the color white try removing this line */
 }
