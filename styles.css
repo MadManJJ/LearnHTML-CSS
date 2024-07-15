@@ -25,12 +25,18 @@ body {
 
 nav {
     max-width: 1200px;
-    margin: 0 auto;
     padding: 2rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0a0909;
+    z-index: 1000;
 }
 
 .nav-logo {
@@ -103,6 +109,7 @@ nav {
 
 header {
     position: relative;
+    top: 200px;
     padding-top: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
